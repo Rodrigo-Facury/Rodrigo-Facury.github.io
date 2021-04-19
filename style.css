@@ -1,0 +1,85 @@
+    body {
+        background-color: rgba(163, 188, 193, 0.43);
+    }
+
+    h1, h3 {
+        font-family: Playfair Display, serif;
+    }
+
+    p {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .strong-words {
+        font-style: oblique;
+    }
+    
+    .name {
+        text-align: center;
+    }
+
+    img {
+        border-radius: 25%;
+        padding: 2px;
+        background-color: bisque;
+        position: relative;
+        left: 65px;
+    }
+
+    .about-me {
+        position: absolute;
+        left: 390px;
+        top: 290px;
+        max-width: 40%;
+        padding: 15px;
+        border: bisque;
+        border-style: solid;
+        border-width: 3px;
+        background-color: rgba(235, 246, 248, 0.43);
+        max-height: 150px;
+        overflow: auto;
+    }
+
+    .soft-skills {
+    font-size: 1.02em;
+    }
+
+    .hard-skills {
+    font-size: 1.01em;
+    }
+
+    .skills li:nth-of-type(2n+1) {
+        font-style: oblique;
+    }
+
+    .skills li {
+        list-style: square;
+    }
+
+    .inspiration li {
+        list-style: none;
+    }
+
+    .inspiration a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .inspiration li:nth-of-type(1) :hover {
+        color: rgba(22, 105, 161, 1);
+        font-weight: bold;
+    }
+
+    .inspiration li:nth-of-type(2) :hover {
+        color: green;
+        font-weight: bold;
+    }
+
+    #powered-by {
+        color: rgb(87, 151, 162);
+        font-weight: 600;
+        text-align: center;
+        font-family: Lobster, cursive;
+        font-size: 14px;
+        font-weight: 300;
+    }

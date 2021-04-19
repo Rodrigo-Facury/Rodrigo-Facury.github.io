@@ -7,90 +7,50 @@
     <title>Portfólio Rodrigo Facury</title>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-    <style>
-    h1, h3{
-        font-family: Playfair Display, serif;
-    }
-    
-    p{
-        font-family: Georgia, 'Times New Roman', Times, serif;
-    }
-
-    body{
-        background-color: rgba(163, 188, 193, 0.43);
-    }
-
-    .strong-words{
-        font-style: oblique;
-    }
-
-    .soft-skills{
-    font-size: 1.02em;
-    }
-
-    .hard-skills{
-    font-size: 1.01em;
-    }
-
-    img{
-        border-radius: 25%;
-    }
-
-    #powered-by{
-        color: rgb(87, 151, 162);
-        font-weight: 600;
-        text-align: center;
-        font-family: Lobster, cursive;
-        font-size: 14px;
-        font-weight: 300;
-    }
-
-    </style>
-
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <p><strong>Índice</strong></p>
-    <ul>
-    <li><a href="#Minha foto">Minha foto</a></li>
-    <li><a href="#Sobre mim">Sobre mim</a></li>
-    <li><a href="#Habilidades">Habilidades</a></li>
-    <li><a href="#Meus blogs de inspiração">Meus blogs de inspiração</a></li>
-    </ul>
-    
-
-    <h1>Rodrigo Facury de Paula Moreira</h1>
-
-    <img width="250" src="./minha_foto.jpg" alt="Foto de Rodrigo Facury sorrindo." id="Minha foto"> 
-
-    <h3 id="Sobre mim">Sobre mim</h3>
-    <p>Sou <strong class="strong-words">brasileiro</strong>, natural de Uberaba/MG. Atualmente, moro em <strong class="strong-words">Florianópolis/SC</strong>. Sou formado em Marketing pela Unicesumar e estou estudando desenvolvimento web na Trybe.</p>
-
+    <div class="summary">
+        <p><strong>Índice</strong></p>
+        <ul>
+            <li><a href="#Minha foto">Minha foto</a></li>
+            <li><a href="#Sobre mim">Sobre mim</a></li>
+            <li><a href="#Habilidades">Habilidades</a></li>
+            <li><a href="#Meus blogs de inspiração">Meus blogs de inspiração</a></li>
+        </ul>
+    </div>
+    <div class="name"><h1>Rodrigo Facury de Paula Moreira</h1></div>
+    <div class="picture"><img width="250" src="./minha_foto.jpg" alt="Foto de Rodrigo Facury sorrindo." id="Minha foto"></div> 
+    <div class="about-me">
+        <h3 id="Sobre mim">Sobre mim</h3>
+        <p>Sou <strong class="strong-words">brasileiro</strong>, natural de Uberaba/MG. Atualmente, moro em <strong class="strong-words">Florianópolis/SC</strong>. Sou formado em Marketing pela Unicesumar e estou estudando desenvolvimento web na Trybe.</p>
+    </div>
     <hr>
-
     <h3 id="Habilidades">Habilidades</h3>
-    <p><strong>Soft skills:</strong></p>
-    <ul>
-    <li class="soft-skills">Comunicação;</li>
-    <li class="soft-skills">Capacidade analítica;</li>
-    <li class="soft-skills"><strong class="strong-words soft-skills">Pensamento criativo;</strong></li>
-    <li class="soft-skills"> Pensamento conceitual.</li>
-    </ul>
-
-    <p><strong>Hard skills:</strong></p>
-    <ul>
-    <li class="hard-skills">HTML básico;</li>
-    <li><strong class="strong-words hard-skills">Inglês fluente;</strong></li>
-    <li class="hard-skills">Github básico;</li>
-    <li class="hard-skills">Git básico.</li>
-    </ul>
-
+    <div class="skills">
+        <p><strong>Soft skills:</strong></p>
+        <ul>
+            <li class="soft-skills">Comunicação;</li>
+            <li class="soft-skills">Capacidade analítica;</li>
+            <li class="soft-skills"><strong class="strong-words soft-skills">Pensamento criativo;</strong></li>
+            <li class="soft-skills"> Pensamento conceitual.</li>
+        </ul>
+        <p><strong>Hard skills:</strong></p>
+        <ul>
+            <li class="hard-skills">HTML básico;</li>
+            <li><strong class="strong-words     hard-skills">Inglês fluente;</strong></li>
+            <li class="hard-skills">Github básico;</li>
+            <li class="hard-skills">Git básico.</li>
+        </ul>
+    </div>
     <hr>
-
-    <h3 id="Meus blogs de inspiração">Meus blogs de inspiração</h3>
-    <li><a href="https://www.tecmundo.com.br/" target="_blank">TecMundo</a></li>
-    <li><a href="https://blog.betrybe.com/" target="_blank">Trybe</a></li> <br>
-
+    <div class="inspiration">
+        <h3 id="Meus blogs de inspiração">Meus blogs de inspiração</h3>
+        <ul>
+            <li><a href="https://www.tecmundo.com.br/"  target="_blank">TecMundo</a></li>
+            <li><a href="https://blog.betrybe.com/"     target="_blank">Trybe</a></li> <br>
+        </ul>
+    </div>
     <p id="powered-by">Feito com carinho por Rodrigo Facury - 2021</p>
-
 </body>
 </html>
