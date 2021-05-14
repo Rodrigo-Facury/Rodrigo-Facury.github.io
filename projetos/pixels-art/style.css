@@ -1,0 +1,45 @@
+header {
+  text-align: center;
+  width: 100%;
+  margin: 15px auto;
+}
+
+#color-palette {
+  text-align: center;
+  margin: auto;
+}
+
+.color {
+  border: solid;
+  border-width: 1px;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+}
+
+#clear-button {
+  text-align: center;
+  margin: 20px auto;
+}
+
+#generate-button {
+  text-align: center;
+  margin: 20px auto;
+}
+
+#pixel-board {
+  margin: 25px auto;
+  width: max-content;
+}
+
+.pixel {
+  border: solid black 1px;
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  display: inline-block;
+}
+
+.line {
+  display: block;
+}
