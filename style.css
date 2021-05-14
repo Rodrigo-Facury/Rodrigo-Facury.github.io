@@ -1,86 +1,164 @@
-    body {
-        background-color: rgba(163, 188, 193, 0.43);
-    }
+body {
+  background-color: rgb(253, 251, 251);
+  margin: 0;
+}
 
-    h1, h3 {
-        font-family: Playfair Display, serif;
-    }
+#cabecalho {
+  position: fixed;
+  top: 0;
+  background-color: teal;
+  padding-left: 41%;
+  padding-right: 40.64%;
+}
 
-    p {
-        font-family: Georgia, 'Times New Roman', Times, serif;
-    }
+h1 {
+  color: rgb(253, 251, 251);
+  font-family: monospace;
+  text-transform: uppercase;
+  font-weight: 1000;
+}
 
-    .strong-words {
-        font-style: oblique;
-    }
-    
-    .name {
-        text-align: center;
-    }
+#nav {
+  margin-top: 100px;
+}
 
-    img {
-        border-radius: 25%;
-        padding: 2px;
-        background-color: bisque;
-        position: relative;
-        left: 65px;
-    }
+#nav li {
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 10px;
+  background-color: rgba(0, 128, 128, 0.76);
+}
 
-    .about-me {
-        position: absolute;
-        left: 370px;
-        top: 290px;
-        max-width: 40%;
-        padding: 15px;
-        margin-right: 10px;
-        border: bisque;
-        border-style: solid;
-        border-width: 3px;
-        background-color: rgba(235, 246, 248, 0.43);
-        max-height: 150px;
-        overflow: auto;
-    }
+#nav a {
+  text-decoration: none;
+  color: rgb(253, 251, 251);
+  font-weight: 700;
+  font-family: sans-serif;
+}
 
-    .soft-skills {
-    font-size: 1.02em;
-    }
+#minha_foto {
+  width: 250px;
+  margin-top: 55px;
+  margin-left: 200px;
+  border-radius: 30%;
+}
 
-    .hard-skills {
-    font-size: 1.01em;
-    }
+.cursive {
+  font-family: Sacramento, cursive;
+  font-size: 50px;
+  position: absolute;
+  color: white;
+}
 
-    .skills li:nth-of-type(2n+1) {
-        font-style: oblique;
-    }
+.cursive:hover {
+  color: black;
+}
 
-    .skills li {
-        list-style: square;
-    }
+#eu {
+  left: 20px;
+}
 
-    .inspiration li {
-        list-style: none;
-    }
+table {
+  position: absolute;
+  left: 670px;
+  bottom: 210px;
+}
 
-    .inspiration a {
-        text-decoration: none;
-        color: black;
-    }
+#aprendizado {
+  left: 700px;
+  bottom: 330px;
+}
 
-    .inspiration li:nth-of-type(1) :hover {
-        color: rgba(22, 105, 161, 1);
-        font-weight: bold;
-    }
+table td , th {
+  border: solid;
+  border-width: 1px;
+  padding: 5px;
+}
 
-    .inspiration li:nth-of-type(2) :hover {
-        color: green;
-        font-weight: bold;
-    }
+.green:hover {
+  background-color: green;
+  font-weight: 700;
+}
 
-    #powered-by {
-        color: rgb(87, 151, 162);
-        font-weight: 600;
-        text-align: center;
-        font-family: Lobster, cursive;
-        font-size: 14px;
-        font-weight: 300;
-    }
+.red:hover {
+  background-color: red;
+  font-weight: 700;
+}
+
+.listTitle {
+  margin-left: 100px;
+  font-family: monospace;
+}
+
+#aprendi {
+  left: 670px;
+}
+
+#licoes_aprendidas {
+  font-family: monospace;
+  font-size: 14.5px;
+  margin-left: 100px;
+}
+
+#vou-aprender {
+  left: 640px;
+}
+
+#licoes_a_aprender {
+  font-family: monospace;
+  font-size: 14.5px;
+  margin-left: 100px;
+}
+
+h2 {
+  font-size: 1.3em;
+}
+
+.lado-esquerdo {
+  width: 400px;
+  float: left;
+  margin-left: 100px;
+  text-align: justify;
+  font-family: monospace;
+  margin-bottom: 40px;
+}
+
+.lado-direito {
+  width: 400px;
+  float: right;
+  position: absolute;
+  left: 700px;
+  top: 1020px;
+  text-align: justify;
+  background-color: rgba(0, 109, 128, 0.76);
+  padding: 20px;
+  font-family: monospace;
+}
+
+.texto {
+  line-height: 1.5em;
+}
+
+#rodape {
+  margin-top: 20px;
+  padding: 5px;
+  padding-left: 20px;
+  background-color: teal;
+  clear: both;
+}
+
+#rodape a {
+  text-decoration: none;
+  color: white;
+}
+
+#nav a:hover {
+  color: rgba(91, 36, 143, 0.479);
+  font-weight: 700;
+}
+
+#rodape a:hover {
+  color: black;
+  font-weight: 700;
+}

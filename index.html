@@ -1,56 +1,87 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio Rodrigo Facury</title>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <title>Portfólio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="summary">
-        <p><strong>Índice</strong></p>
-        <ul>
-            <li><a href="#Minha foto">Minha foto</a></li>
-            <li><a href="#Sobre mim">Sobre mim</a></li>
-            <li><a href="#Habilidades">Habilidades</a></li>
-            <li><a href="#Meus blogs de inspiração">Meus blogs de inspiração</a></li>
-        </ul>
-    </div>
-    <div class="name"><h1>Rodrigo Facury de Paula Moreira</h1></div>
-    <div class="picture"><img width="250" src="./minha_foto.jpg" alt="Foto de Rodrigo Facury sorrindo." id="Minha foto"></div> 
-    <div class="about-me">
-        <h3 id="Sobre mim">Sobre mim</h3>
-        <p>Sou <strong class="strong-words">brasileiro</strong>, natural de Uberaba/MG. Atualmente, moro em <strong class="strong-words">Florianópolis/SC</strong>. Sou formado em Marketing pela Unicesumar e estou estudando desenvolvimento web na Trybe.</p>
-    </div>
-    <hr>
-    <h3 id="Habilidades">Habilidades</h3>
-    <div class="skills">
-        <p><strong>Soft skills:</strong></p>
-        <ul>
-            <li class="soft-skills">Comunicação;</li>
-            <li class="soft-skills">Capacidade analítica;</li>
-            <li class="soft-skills"><strong class="strong-words soft-skills">Pensamento criativo;</strong></li>
-            <li class="soft-skills"> Pensamento conceitual.</li>
-        </ul>
-        <p><strong>Hard skills:</strong></p>
-        <ul>
-            <li class="hard-skills">HTML básico;</li>
-            <li><strong class="strong-words     hard-skills">Inglês fluente;</strong></li>
-            <li class="hard-skills">Github básico;</li>
-            <li class="hard-skills">Git básico.</li>
-        </ul>
-    </div>
-    <hr>
-    <div class="inspiration">
-        <h3 id="Meus blogs de inspiração">Meus blogs de inspiração</h3>
-        <ul>
-            <li><a href="https://www.tecmundo.com.br/"  target="_blank">TecMundo</a></li>
-            <li><a href="https://blog.betrybe.com/"     target="_blank">Trybe</a></li> <br>
-        </ul>
-    </div>
-    <p id="powered-by">Feito com carinho por Rodrigo Facury - 2021</p>
+    <header id="cabecalho">
+        <h1 id="titulo">Lessons Learned</h1>
+    </header>
+    <nav id="nav">
+        <li><a href="#licoes_aprendidas">O que aprendi</a></li>
+        <li><a href="#licoes_a_aprender">O que vou aprender</a></li>
+        <li><a href="#experiencia">Minha experiência na Trybe</a></li>
+        <li><a href="#historia">História gratificante</a></li>
+    </nav>
+    <p id="eu" class="cursive">Esse aqui sou eu</p>
+    <img id="minha_foto" src="./rsz_minha_foto.jpg" alt="Rodrigo Facury sorrindo"> <br> <br>
+    <p id="aprendizado" class="cursive">Meu aprendizado</p>
+    <table>
+        <tr>
+            <th>Módulo</th>
+            <th>Status</th>
+        </tr>
+        <tr>
+           <td>Fundamentos do Desenvolvimento Web</td>
+           <td class="green">Em andamento</td>
+        </tr>
+        <tr>
+            <td>Front-End</td>
+            <td class="red">Por vir</td>
+        </tr>
+        <tr>
+            <td>Back-End</td>
+            <td class="red">Por vir</td>
+        </tr>
+        <tr>
+            <td>Ciência da Computação</td>
+            <td class="red">Por vir</td>
+        </tr>
+    </table>
+    <p id="aprendi" class="cursive">Quer saber o que já aprendi?</p>
+    <h2 class="listTitle">O que aprendi:</h2>
+    <ol id="licoes_aprendidas">
+        <li>Unix</li>
+        <li>Bash</li>
+        <li>Git</li>
+        <li>GitHub</li>
+        <li>HTML</li>
+        <li>HTML semântico</li>
+        <li>CSS</li>
+        <li>Box model</li>
+        <li>Seletores e posicionamento</li>
+        <li>Internet</li>
+    </ol>
+    <p id="vou-aprender" class="cursive">E o que ainda tenho a aprender?</p>
+    <h2 class="listTitle">O que vou aprender:</h2>
+    <ul id="licoes_a_aprender">
+        <li>JavaScript</li>
+        <li>Front-End</li>
+        <li>Back-End</li>
+        <li>Python</li>
+        <li>JSON</li>
+        <li>React</li>
+        <li>Metodologias ágeis</li>
+        <li>Testes automatizados</li>
+        <li>SQL</li>
+        <li>Normalização e modelagem de banco de dados</li>
+    </ul>
+    <article id="experiencia" class="lado-esquerdo">
+        <h2>Minha experiência na Trybe</h2>
+        <p class="texto">Até agora na Trybe, tenho aprendido muitas ferramentas importantes para uma pessoa programadora. Dentre elas, como já mencionado na lista de lições aprendidas, estão: a utilização do Git e do GitHub para versionar códigos, o HTML para estruturar páginas e o CSS para estilizá-las. Além disso, tenho aprendido a desenvolver resiliência, frente aos inúmeros desafios encontrados pela pessoa desenvolvedora ao longo de sua jornada.</p>
+    </article>
+    <section class="lado-direito">
+        <h2>História gratificante</h2>
+        <aside id="historia" class="texto">Colocando meu primeiro site no ar: em menos de 3 semanas de aulas na Trybe, eu, que era leigo antes do curso, consegui criar meu primeiro site do zero. Foi uma experiência muito gratificante.</aside>
+    </section>
+    <footer id="rodape">
+        <p><a href="https://www.linkedin.com/in/rodrigo-facury-ba8723100/" target="_blank">LinkedIn</a></p>
+    </footer>
 </body>
 </html>
